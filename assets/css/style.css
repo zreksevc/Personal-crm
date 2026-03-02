@@ -1,0 +1,75 @@
+/* ============================================
+   Personal CRM — Global Stylesheet
+   ============================================ */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+}
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+/* Table */
+.table th {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #6c757d;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+
+/* Badge */
+.badge {
+    font-size: 0.75rem;
+    padding: 0.35em 0.65em;
+    border-radius: 20px;
+}
+
+/* Form */
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+/* Pagination */
+.pagination .page-link {
+    color: #0d6efd;
+    border-radius: 6px !important;
+    margin: 0 2px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+/* Alert */
+.alert {
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
